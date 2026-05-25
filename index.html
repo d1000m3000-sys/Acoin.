@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Acoin Wallet</title>
+
   <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#00d4ff">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<!-- Splash Screen -->
+<div class="splash">
+  <img src="logo.png" class="logo">
+  <h1>ACOIN</h1>
+  <p>Decentralized Wallet</p>
+</div>
 
-  <div class="logo">
-    <div class="glow"></div>
-    <h1>ACOIN</h1>
-    <p class="tag">Private Digital Asset Layer</p>
+<!-- Main App -->
+<div class="app">
+
+  <div class="top">
+    <img src="logo.png" class="top-logo">
+    <h2>Acoin Wallet</h2>
   </div>
 
   <div class="card">
-    <h2>Wallet</h2>
-    <p class="addr">0x000...ACN</p>
+    <p>Wallet Address</p>
+    <h4>0x000...ACN</h4>
 
     <div class="balance">
-      <h3>Balance</h3>
       <h1>0.00 ACN</h1>
     </div>
   </div>
 
-  <div class="actions">
+  <div class="buttons">
     <button>Send</button>
     <button>Receive</button>
     <button>Swap</button>
   </div>
+
+  <button id="installBtn">Install App</button>
 
 </div>
 
