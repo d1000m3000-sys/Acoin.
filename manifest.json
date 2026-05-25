@@ -1,9 +1,9 @@
 {
   "name": "Acoin Wallet",
   "short_name": "ACN",
-  "start_url": ".",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#070012",
+  "background_color": "#05010a",
   "theme_color": "#00d4ff",
   "icons": [
     {
