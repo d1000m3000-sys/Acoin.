@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background: #070012;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 42px;
+  letter-spacing: 8px;
+}
+
+.tag {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.glow {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #00d4ff, transparent);
+  filter: blur(10px);
+}
+
+.card {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.addr {
+  color: #888;
+  font-size: 12px;
+}
+
+.balance h1 {
+  color: #00d4ff;
+  font-size: 30px;
+}
+
+.actions button {
+  margin: 10px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #00d4ff;
+  color: black;
+  font-weight: bold;
+}
