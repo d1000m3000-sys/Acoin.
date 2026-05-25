@@ -1,3 +1,8 @@
-self.addEventListener("install", () => {
-  console.log("Acoin PWA installed");
+self.addEventListener("install", (event) => {
+  console.log("Acoin installed");
+  self.skipWaiting();
+});
+
+self.addEventListener("fetch", (event) => {
+  event.respondWith(fetch(event.request));
 });
